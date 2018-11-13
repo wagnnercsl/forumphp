@@ -1,0 +1,39 @@
+.img_comentario {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.card_comentario {
+    margin-bottom: 15px;
+}
+
+.table_comentario {
+    margin-top: 20px;
+}
+
+.icons_comentario {
+    float: right;
+}
+
+.action_icons {
+    margin-right: 8px;
+}
+
+.pesquisar {
+    margin-top: 20px;
+}
+
+.btn_pesquisar {
+    margin-top: 7px;
+}
+
+.btn_novoTema {
+    margin-top: -100px;
+}
+
+.icon_print {
+    margin-top: 10px;
+}
+

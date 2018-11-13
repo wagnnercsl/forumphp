@@ -1,0 +1,43 @@
+.rememberMe
+{
+    padding-top: 10px;
+}
+
+.newComer
+{
+    font-size: 0.9em;
+}
+
+.custom-input {
+    display: none;
+}
+
+.logotipo {
+	padding: 10px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.logotipo img {	
+	height: 60px;
+	width: 60px;
+	border-radius: 3px;
+}
+
+.title {
+	text-align: center;
+}
+
+.recoverPwd {
+	margin-top: 10px;
+    border: 0;
+    padding: 0;
+    background: none;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.recoverPwd:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

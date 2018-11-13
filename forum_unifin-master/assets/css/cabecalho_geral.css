@@ -1,0 +1,11 @@
+.container
+{
+    margin-bottom: 75px;
+}
+
+.wrap_table_content {
+    word-wrap: break-word;
+    min-width: 280px;
+    max-width: 280px;
+    white-space: normal;
+}

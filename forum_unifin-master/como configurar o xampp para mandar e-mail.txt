@@ -1,0 +1,24 @@
+arquivo php.ini:  //C:\xampp\php\php.ini
+
+tirar ';' do inicio da linha com o seguinte conteúdo: extension=php_openssl.dll.
+
+na parte com o título [mail function] mudar o seguinte:
+
+SMTP=smtp.gmail.com
+smtp_port=587
+sendmail_from = my-gmail-id@gmail.com   //Aqui coloque o e-mail que utilizará para enviar pela aplicação.
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t" //Aqui coloque o path até o executavel do sendmail.
+
+arquivo sendmail.ini:  //C:\xampp\sendmail\sendmail.ini
+
+troque todo o conteúdo do arquivo por:
+
+[sendmail]
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=my-gmail-id@gmail.com //Aqui coloque o e-mail que utilizará para enviar pela aplicação.
+auth_password=my-gmail-password     //Aqui coloque a senha desse e-mail.
+force_sender=my-gmail-id@gmail.com //Aqui coloque o e-mail que utilizará para enviar pela aplicação.
